@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppID</key>
+	<integer>1500000101</integer>
+	<key>Host</key>
+	<string>10.202.4.111</string>
+	<key>DomainIpList</key>
+	<string></string>
+	<key>Port</key>
+	<string>8080</string>
+</dict>
+</plist>

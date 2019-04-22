@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B53E51E5226ADC9E00FE62D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E51E4226ADC9E00FE62D2 /* AppDelegate.m */; };
+		B53E51E8226ADC9E00FE62D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E51E7226ADC9E00FE62D2 /* ViewController.m */; };
+		B53E51EB226ADC9E00FE62D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53E51E9226ADC9E00FE62D2 /* Main.storyboard */; };
+		B53E51ED226ADC9F00FE62D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53E51EC226ADC9F00FE62D2 /* Assets.xcassets */; };
+		B53E51F0226ADC9F00FE62D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53E51EE226ADC9F00FE62D2 /* LaunchScreen.storyboard */; };
+		B53E51F3226ADC9F00FE62D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E51F2226ADC9F00FE62D2 /* main.m */; };
+		B53E51FD226ADC9F00FE62D2 /* RoleDriverHookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E51FC226ADC9F00FE62D2 /* RoleDriverHookTests.m */; };
+		B53E5208226ADC9F00FE62D2 /* RoleDriverHookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E5207226ADC9F00FE62D2 /* RoleDriverHookUITests.m */; };
+		B53E5224226ADF8A00FE62D2 /* ZJHook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53E521B226ADF8900FE62D2 /* ZJHook.framework */; };
+		B53E522B226ADF8A00FE62D2 /* ZJHookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E522A226ADF8A00FE62D2 /* ZJHookTests.m */; };
+		B53E522D226ADF8A00FE62D2 /* ZJHook.h in Headers */ = {isa = PBXBuildFile; fileRef = B53E521D226ADF8900FE62D2 /* ZJHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B53E5230226ADF8A00FE62D2 /* ZJHook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53E521B226ADF8900FE62D2 /* ZJHook.framework */; };
+		B53E5231226ADF8A00FE62D2 /* ZJHook.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B53E521B226ADF8900FE62D2 /* ZJHook.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B53E523B226ADFBD00FE62D2 /* ZJHookCode.h in Headers */ = {isa = PBXBuildFile; fileRef = B53E5239226ADFBD00FE62D2 /* ZJHookCode.h */; };
+		B53E523C226ADFBD00FE62D2 /* ZJHookCode.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E523A226ADFBD00FE62D2 /* ZJHookCode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B53E51F9226ADC9F00FE62D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53E51D8226ADC9E00FE62D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53E51DF226ADC9E00FE62D2;
+			remoteInfo = RoleDriverHook;
+		};
+		B53E5204226ADC9F00FE62D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53E51D8226ADC9E00FE62D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53E51DF226ADC9E00FE62D2;
+			remoteInfo = RoleDriverHook;
+		};
+		B53E5225226ADF8A00FE62D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53E51D8226ADC9E00FE62D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53E521A226ADF8900FE62D2;
+			remoteInfo = ZJHook;
+		};
+		B53E5227226ADF8A00FE62D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53E51D8226ADC9E00FE62D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53E51DF226ADC9E00FE62D2;
+			remoteInfo = RoleDriverHook;
+		};
+		B53E522E226ADF8A00FE62D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53E51D8226ADC9E00FE62D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53E521A226ADF8900FE62D2;
+			remoteInfo = ZJHook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B53E5235226ADF8A00FE62D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B53E5231226ADF8A00FE62D2 /* ZJHook.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B53E51E0226ADC9E00FE62D2 /* RoleDriverHook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoleDriverHook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53E51E3226ADC9E00FE62D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B53E51E4226ADC9E00FE62D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B53E51E6226ADC9E00FE62D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B53E51E7226ADC9E00FE62D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B53E51EA226ADC9E00FE62D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B53E51EC226ADC9F00FE62D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B53E51EF226ADC9F00FE62D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B53E51F1226ADC9F00FE62D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53E51F2226ADC9F00FE62D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B53E51F8226ADC9F00FE62D2 /* RoleDriverHookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoleDriverHookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53E51FC226ADC9F00FE62D2 /* RoleDriverHookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoleDriverHookTests.m; sourceTree = "<group>"; };
+		B53E51FE226ADC9F00FE62D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53E5203226ADC9F00FE62D2 /* RoleDriverHookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoleDriverHookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53E5207226ADC9F00FE62D2 /* RoleDriverHookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoleDriverHookUITests.m; sourceTree = "<group>"; };
+		B53E5209226ADC9F00FE62D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53E521B226ADF8900FE62D2 /* ZJHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZJHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53E521D226ADF8900FE62D2 /* ZJHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJHook.h; sourceTree = "<group>"; };
+		B53E521E226ADF8900FE62D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53E5223226ADF8A00FE62D2 /* ZJHookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJHookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53E522A226ADF8A00FE62D2 /* ZJHookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHookTests.m; sourceTree = "<group>"; };
+		B53E522C226ADF8A00FE62D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53E5239226ADFBD00FE62D2 /* ZJHookCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJHookCode.h; sourceTree = "<group>"; };
+		B53E523A226ADFBD00FE62D2 /* ZJHookCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHookCode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53E51DD226ADC9E00FE62D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53E5230226ADF8A00FE62D2 /* ZJHook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E51F5226ADC9F00FE62D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E5200226ADC9F00FE62D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E5218226ADF8900FE62D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E5220226ADF8A00FE62D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53E5224226ADF8A00FE62D2 /* ZJHook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53E51D7226ADC9E00FE62D2 = {
+			isa = PBXGroup;
+			children = (
+				B53E51E2226ADC9E00FE62D2 /* RoleDriverHook */,
+				B53E51FB226ADC9F00FE62D2 /* RoleDriverHookTests */,
+				B53E5206226ADC9F00FE62D2 /* RoleDriverHookUITests */,
+				B53E521C226ADF8900FE62D2 /* ZJHook */,
+				B53E5229226ADF8A00FE62D2 /* ZJHookTests */,
+				B53E51E1226ADC9E00FE62D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B53E51E1226ADC9E00FE62D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53E51E0226ADC9E00FE62D2 /* RoleDriverHook.app */,
+				B53E51F8226ADC9F00FE62D2 /* RoleDriverHookTests.xctest */,
+				B53E5203226ADC9F00FE62D2 /* RoleDriverHookUITests.xctest */,
+				B53E521B226ADF8900FE62D2 /* ZJHook.framework */,
+				B53E5223226ADF8A00FE62D2 /* ZJHookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53E51E2226ADC9E00FE62D2 /* RoleDriverHook */ = {
+			isa = PBXGroup;
+			children = (
+				B53E51E3226ADC9E00FE62D2 /* AppDelegate.h */,
+				B53E51E4226ADC9E00FE62D2 /* AppDelegate.m */,
+				B53E51E6226ADC9E00FE62D2 /* ViewController.h */,
+				B53E51E7226ADC9E00FE62D2 /* ViewController.m */,
+				B53E51E9226ADC9E00FE62D2 /* Main.storyboard */,
+				B53E51EC226ADC9F00FE62D2 /* Assets.xcassets */,
+				B53E51EE226ADC9F00FE62D2 /* LaunchScreen.storyboard */,
+				B53E51F1226ADC9F00FE62D2 /* Info.plist */,
+				B53E51F2226ADC9F00FE62D2 /* main.m */,
+			);
+			path = RoleDriverHook;
+			sourceTree = "<group>";
+		};
+		B53E51FB226ADC9F00FE62D2 /* RoleDriverHookTests */ = {
+			isa = PBXGroup;
+			children = (
+				B53E51FC226ADC9F00FE62D2 /* RoleDriverHookTests.m */,
+				B53E51FE226ADC9F00FE62D2 /* Info.plist */,
+			);
+			path = RoleDriverHookTests;
+			sourceTree = "<group>";
+		};
+		B53E5206226ADC9F00FE62D2 /* RoleDriverHookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B53E5207226ADC9F00FE62D2 /* RoleDriverHookUITests.m */,
+				B53E5209226ADC9F00FE62D2 /* Info.plist */,
+			);
+			path = RoleDriverHookUITests;
+			sourceTree = "<group>";
+		};
+		B53E521C226ADF8900FE62D2 /* ZJHook */ = {
+			isa = PBXGroup;
+			children = (
+				B53E521D226ADF8900FE62D2 /* ZJHook.h */,
+				B53E5239226ADFBD00FE62D2 /* ZJHookCode.h */,
+				B53E523A226ADFBD00FE62D2 /* ZJHookCode.m */,
+				B53E521E226ADF8900FE62D2 /* Info.plist */,
+			);
+			path = ZJHook;
+			sourceTree = "<group>";
+		};
+		B53E5229226ADF8A00FE62D2 /* ZJHookTests */ = {
+			isa = PBXGroup;
+			children = (
+				B53E522A226ADF8A00FE62D2 /* ZJHookTests.m */,
+				B53E522C226ADF8A00FE62D2 /* Info.plist */,
+			);
+			path = ZJHookTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B53E5216226ADF8900FE62D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53E523B226ADFBD00FE62D2 /* ZJHookCode.h in Headers */,
+				B53E522D226ADF8A00FE62D2 /* ZJHook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B53E51DF226ADC9E00FE62D2 /* RoleDriverHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53E520C226ADC9F00FE62D2 /* Build configuration list for PBXNativeTarget "RoleDriverHook" */;
+			buildPhases = (
+				B53E51DC226ADC9E00FE62D2 /* Sources */,
+				B53E51DD226ADC9E00FE62D2 /* Frameworks */,
+				B53E51DE226ADC9E00FE62D2 /* Resources */,
+				B53E5215226ADF6C00FE62D2 /* ShellScript */,
+				B53E5235226ADF8A00FE62D2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53E522F226ADF8A00FE62D2 /* PBXTargetDependency */,
+			);
+			name = RoleDriverHook;
+			productName = RoleDriverHook;
+			productReference = B53E51E0226ADC9E00FE62D2 /* RoleDriverHook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B53E51F7226ADC9F00FE62D2 /* RoleDriverHookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53E520F226ADC9F00FE62D2 /* Build configuration list for PBXNativeTarget "RoleDriverHookTests" */;
+			buildPhases = (
+				B53E51F4226ADC9F00FE62D2 /* Sources */,
+				B53E51F5226ADC9F00FE62D2 /* Frameworks */,
+				B53E51F6226ADC9F00FE62D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53E51FA226ADC9F00FE62D2 /* PBXTargetDependency */,
+			);
+			name = RoleDriverHookTests;
+			productName = RoleDriverHookTests;
+			productReference = B53E51F8226ADC9F00FE62D2 /* RoleDriverHookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B53E5202226ADC9F00FE62D2 /* RoleDriverHookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53E5212226ADC9F00FE62D2 /* Build configuration list for PBXNativeTarget "RoleDriverHookUITests" */;
+			buildPhases = (
+				B53E51FF226ADC9F00FE62D2 /* Sources */,
+				B53E5200226ADC9F00FE62D2 /* Frameworks */,
+				B53E5201226ADC9F00FE62D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53E5205226ADC9F00FE62D2 /* PBXTargetDependency */,
+			);
+			name = RoleDriverHookUITests;
+			productName = RoleDriverHookUITests;
+			productReference = B53E5203226ADC9F00FE62D2 /* RoleDriverHookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B53E521A226ADF8900FE62D2 /* ZJHook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53E5232226ADF8A00FE62D2 /* Build configuration list for PBXNativeTarget "ZJHook" */;
+			buildPhases = (
+				B53E5216226ADF8900FE62D2 /* Headers */,
+				B53E5217226ADF8900FE62D2 /* Sources */,
+				B53E5218226ADF8900FE62D2 /* Frameworks */,
+				B53E5219226ADF8900FE62D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJHook;
+			productName = ZJHook;
+			productReference = B53E521B226ADF8900FE62D2 /* ZJHook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B53E5222226ADF8A00FE62D2 /* ZJHookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53E5236226ADF8A00FE62D2 /* Build configuration list for PBXNativeTarget "ZJHookTests" */;
+			buildPhases = (
+				B53E521F226ADF8A00FE62D2 /* Sources */,
+				B53E5220226ADF8A00FE62D2 /* Frameworks */,
+				B53E5221226ADF8A00FE62D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B53E5226226ADF8A00FE62D2 /* PBXTargetDependency */,
+				B53E5228226ADF8A00FE62D2 /* PBXTargetDependency */,
+			);
+			name = ZJHookTests;
+			productName = ZJHookTests;
+			productReference = B53E5223226ADF8A00FE62D2 /* ZJHookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53E51D8226ADC9E00FE62D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "岑志军";
+				TargetAttributes = {
+					B53E51DF226ADC9E00FE62D2 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					B53E51F7226ADC9F00FE62D2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B53E51DF226ADC9E00FE62D2;
+					};
+					B53E5202226ADC9F00FE62D2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B53E51DF226ADC9E00FE62D2;
+					};
+					B53E521A226ADF8900FE62D2 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					B53E5222226ADF8A00FE62D2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = B53E51DF226ADC9E00FE62D2;
+					};
+				};
+			};
+			buildConfigurationList = B53E51DB226ADC9E00FE62D2 /* Build configuration list for PBXProject "RoleDriverHook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B53E51D7226ADC9E00FE62D2;
+			productRefGroup = B53E51E1226ADC9E00FE62D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B53E51DF226ADC9E00FE62D2 /* RoleDriverHook */,
+				B53E51F7226ADC9F00FE62D2 /* RoleDriverHookTests */,
+				B53E5202226ADC9F00FE62D2 /* RoleDriverHookUITests */,
+				B53E521A226ADF8900FE62D2 /* ZJHook */,
+				B53E5222226ADF8A00FE62D2 /* ZJHookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53E51DE226ADC9E00FE62D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53E51F0226ADC9F00FE62D2 /* LaunchScreen.storyboard in Resources */,
+				B53E51ED226ADC9F00FE62D2 /* Assets.xcassets in Resources */,
+				B53E51EB226ADC9E00FE62D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E51F6226ADC9F00FE62D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E5201226ADC9F00FE62D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E5219226ADF8900FE62D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E5221226ADF8A00FE62D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B53E5215226ADF6C00FE62D2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/appSign.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53E51DC226ADC9E00FE62D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53E51E8226ADC9E00FE62D2 /* ViewController.m in Sources */,
+				B53E51F3226ADC9F00FE62D2 /* main.m in Sources */,
+				B53E51E5226ADC9E00FE62D2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E51F4226ADC9F00FE62D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53E51FD226ADC9F00FE62D2 /* RoleDriverHookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E51FF226ADC9F00FE62D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53E5208226ADC9F00FE62D2 /* RoleDriverHookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E5217226ADF8900FE62D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53E523C226ADFBD00FE62D2 /* ZJHookCode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53E521F226ADF8A00FE62D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53E522B226ADF8A00FE62D2 /* ZJHookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B53E51FA226ADC9F00FE62D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53E51DF226ADC9E00FE62D2 /* RoleDriverHook */;
+			targetProxy = B53E51F9226ADC9F00FE62D2 /* PBXContainerItemProxy */;
+		};
+		B53E5205226ADC9F00FE62D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53E51DF226ADC9E00FE62D2 /* RoleDriverHook */;
+			targetProxy = B53E5204226ADC9F00FE62D2 /* PBXContainerItemProxy */;
+		};
+		B53E5226226ADF8A00FE62D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53E521A226ADF8900FE62D2 /* ZJHook */;
+			targetProxy = B53E5225226ADF8A00FE62D2 /* PBXContainerItemProxy */;
+		};
+		B53E5228226ADF8A00FE62D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53E51DF226ADC9E00FE62D2 /* RoleDriverHook */;
+			targetProxy = B53E5227226ADF8A00FE62D2 /* PBXContainerItemProxy */;
+		};
+		B53E522F226ADF8A00FE62D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53E521A226ADF8900FE62D2 /* ZJHook */;
+			targetProxy = B53E522E226ADF8A00FE62D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B53E51E9226ADC9E00FE62D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53E51EA226ADC9E00FE62D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B53E51EE226ADC9F00FE62D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53E51EF226ADC9F00FE62D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B53E520A226ADC9F00FE62D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B53E520B226ADC9F00FE62D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B53E520D226ADC9F00FE62D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YX5MTH3352;
+				INFOPLIST_FILE = RoleDriverHook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foryou.Foryou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B53E520E226ADC9F00FE62D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YX5MTH3352;
+				INFOPLIST_FILE = RoleDriverHook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foryou.Foryou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B53E5210226ADC9F00FE62D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoleDriverHookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenzhijun.RoleDriverHookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoleDriverHook.app/RoleDriverHook";
+			};
+			name = Debug;
+		};
+		B53E5211226ADC9F00FE62D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoleDriverHookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenzhijun.RoleDriverHookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoleDriverHook.app/RoleDriverHook";
+			};
+			name = Release;
+		};
+		B53E5213226ADC9F00FE62D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoleDriverHookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenzhijun.RoleDriverHookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoleDriverHook;
+			};
+			name = Debug;
+		};
+		B53E5214226ADC9F00FE62D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoleDriverHookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenzhijun.RoleDriverHookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoleDriverHook;
+			};
+			name = Release;
+		};
+		B53E5233226ADF8A00FE62D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YX5MTH3352;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZJHook/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenzhijun.ZJHook;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B53E5234226ADF8A00FE62D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YX5MTH3352;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ZJHook/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenzhijun.ZJHook;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B53E5237226ADF8A00FE62D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJHookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenzhijun.ZJHookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoleDriverHook.app/RoleDriverHook";
+			};
+			name = Debug;
+		};
+		B53E5238226ADF8A00FE62D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJHookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cenzhijun.ZJHookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoleDriverHook.app/RoleDriverHook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53E51DB226ADC9E00FE62D2 /* Build configuration list for PBXProject "RoleDriverHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53E520A226ADC9F00FE62D2 /* Debug */,
+				B53E520B226ADC9F00FE62D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53E520C226ADC9F00FE62D2 /* Build configuration list for PBXNativeTarget "RoleDriverHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53E520D226ADC9F00FE62D2 /* Debug */,
+				B53E520E226ADC9F00FE62D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53E520F226ADC9F00FE62D2 /* Build configuration list for PBXNativeTarget "RoleDriverHookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53E5210226ADC9F00FE62D2 /* Debug */,
+				B53E5211226ADC9F00FE62D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53E5212226ADC9F00FE62D2 /* Build configuration list for PBXNativeTarget "RoleDriverHookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53E5213226ADC9F00FE62D2 /* Debug */,
+				B53E5214226ADC9F00FE62D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53E5232226ADF8A00FE62D2 /* Build configuration list for PBXNativeTarget "ZJHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53E5233226ADF8A00FE62D2 /* Debug */,
+				B53E5234226ADF8A00FE62D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53E5236226ADF8A00FE62D2 /* Build configuration list for PBXNativeTarget "ZJHookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53E5237226ADF8A00FE62D2 /* Debug */,
+				B53E5238226ADF8A00FE62D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B53E51D8226ADC9E00FE62D2 /* Project object */;
+}
